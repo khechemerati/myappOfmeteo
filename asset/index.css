@@ -1,12 +1,12 @@
 body{
-    background: url("./images&fontes/london-gd44ece10a_1920.jpg") center/cover no-repeat;
+    background: url("/images&fontes/london-gd44ece10a_1920.jpg") center/cover no-repeat;
 }
 
 
 #app{
 
     width: 80%;
-    background-image: url("./images&fontes/galaxie.jpg");
+    background-image: url("/images&fontes/galaxie.jpg");
     margin: auto;
     height: 100vh;
     overflow: hidden;
