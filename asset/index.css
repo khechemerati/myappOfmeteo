@@ -6,7 +6,7 @@ body{
 #app{
 
     width: 80%;
-    background-image: url("myappOfmeteo/images&fontes/galaxie.jpg");
+    background-image: url("galaxie.jpg");
     margin: auto;
     height: 100vh;
     overflow: hidden;
