@@ -9,7 +9,7 @@ body{
   background: rgba(0, 100, 0, 0.362);
   background: darkcyan;
     margin: auto;
-    height: 200vh;
+    height: 100vh;
     overflow: hidden;
     position: relative;
     border: solid darkcyan 2px;
@@ -45,7 +45,7 @@ body{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 15rem;
+    top: 7rem;
     
 }
 .global{
@@ -87,4 +87,15 @@ body{
     .soleil{
         visibility: hidden;
     }
+}
+.copyright{
+    text-align: center;
+    background-color: aqua;
+    box-shadow: -3px -5px rgba(0, 0, 0, 0.526);
+    width: 80%;
+    margin: 10px auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px ;
 }
