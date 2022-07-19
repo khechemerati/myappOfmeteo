@@ -6,28 +6,36 @@ body{
 #app{
 
     width: 80%;
-  background: rgba(0, 100, 0, 0.362);
-  background: darkcyan;
+  
+ background-color:teal;
     margin: auto;
     height: 100vh;
     overflow: hidden;
     position: relative;
     border: solid darkcyan 2px;
     
+    
     border-radius: 20px;
 }
-.soleil{
+.soleil22{
    position: absolute;
    left: 2rem;
    width: 5rem;
    height: 5em;
+   background: url("/images&fontes/soleil22.jpg") center/cover no-repeat;
+   width: 150px;
+   height: 150px;
+   border-radius: 300px;
+ left: 10px;
+ top: 20px;
 }
+
 .zone{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: 3rem;
-    background-color: salmon;
+    background-color: darkmagenta;
     color: white;
     font-size: 1.3rem;
     margin-bottom: 2rem;
@@ -38,14 +46,18 @@ body{
 .app-global{
 
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
     grid-template-areas: 
     "ville temperature"
      "vent  humidite"
+     
     ;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: 7rem;
+    margin: 10px auto;
     
 }
 .global{
@@ -66,7 +78,7 @@ body{
 .temp{
     grid-area:  temperature;
     background-color: rgb(218, 165, 32);
-    font-size: 3remclra;
+    font-size: 3rem;
 
    
 }
@@ -80,12 +92,21 @@ body{
     background-color: rgb(137, 43, 226);
     
 }
+.description{
+    grid-area: description;
+}
 @media screen and (max-width:500px) {
     #app,.app-global{
         display: block;
     }
-    .soleil{
-        visibility: hidden;
+    .soleil22{
+        width: 50px;
+        height: 50px;
+        border-radius: 300px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+       
     }
 }
 .copyright{
